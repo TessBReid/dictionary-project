@@ -1,9 +1,25 @@
-.App-header {
-  margin: 10px auto;
+.App {
+  max-width: 700px;
+  margin: 45px auto;
+  background: white;
+  padding: 30px;
+  border: solid 1px black;
+  border-radius: 4px;
 }
 
-.App-title {
-  margin: 25px auto;
+.App-header {
+  margin: 15px;
   text-align: center;
   font-size: 45px;
+}
+
+.App-footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 15px auto 0;
+}
+
+.App-footer,
+a {
+  text-decoration: none;
 }
