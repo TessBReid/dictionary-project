@@ -8,7 +8,14 @@ export default function App() {
         <header className="App-header">Dictionary App</header>
         <DictionarySearch />
         <footer className="App-footer">
-          <a href="/">Open source code</a> by Tessa Bailey-Reid
+          <a
+            href="https://github.com/TessBReid/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open source code
+          </a>{" "}
+          by Tessa Bailey-Reid
         </footer>
       </div>
     </div>
