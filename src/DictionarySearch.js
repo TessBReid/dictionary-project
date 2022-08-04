@@ -1,20 +1,21 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 
 import "./DictionarySearch.css";
 
 export default function DictionarySearch() {
   const [keyword, setKeyword] = useState(null);
+  const [result, setResult] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
+    setResult(response.data[0]);
   }
 
   //Documentation: https://dictionaryapi.dev/
 
   function handelSearch(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword} ...`);
 
     let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiURL).then(handleResponse);
@@ -45,6 +46,7 @@ export default function DictionarySearch() {
           </div>
         </div>
       </form>
+      <Results result={result} />
     </div>
   );
 }
