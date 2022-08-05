@@ -40,7 +40,7 @@ export default function DictionarySearch() {
               <input
                 type="submit"
                 value="Search"
-                className="w-100 btn btn-primary"
+                className="w-100 btn btn-success"
               />
             </div>
           </div>
