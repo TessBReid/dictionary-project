@@ -34,15 +34,15 @@ export default function DictionarySearch() {
               type="search"
               onChange={searchChange}
               placeholder="Search for a word..."
-              className="w-100"
+              className="form-control"
             />
-            <div className="col-4">
-              <input
-                type="submit"
-                value="Search"
-                className="w-100 btn btn-success"
-              />
-            </div>
+          </div>
+          <div className="col-4">
+            <input
+              type="submit"
+              value="Search"
+              className="w-100 btn btn-success"
+            />
           </div>
         </div>
       </form>
