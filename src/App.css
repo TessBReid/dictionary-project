@@ -1,14 +1,10 @@
 .App {
   max-width: 700px;
   margin: 45px auto;
-
   padding: 30px;
-
-  border-radius: 4px;
 }
 
 .App-header {
-  margin: 15px;
   text-align: center;
   font-size: 45px;
 }

@@ -6,7 +6,7 @@ export default function App() {
     <div className="container">
       <div className="App">
         <header className="App-header">Dictionary App</header>
-        <DictionarySearch defaultKeyword="mountain" />
+        <DictionarySearch defaultKeyword="countryside" />
         <footer className="App-footer">
           <a
             href="https://github.com/TessBReid/dictionary-project"

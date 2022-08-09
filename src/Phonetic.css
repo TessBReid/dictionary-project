@@ -1,0 +1,15 @@
+.Phonetic .phoneticText {
+  font-size: 14px;
+  display: inline;
+  margin-left: 10px;
+}
+
+.Phonetic a {
+  text-decoration: none;
+  padding: 8px 17px;
+  border: 1px solid #375442;
+  color: black;
+  background-color: #dce6e2;
+  border-radius: 30px;
+  line-height: 40px;
+}
