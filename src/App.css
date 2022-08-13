@@ -4,9 +4,10 @@
   padding: 30px;
 }
 
-.App-header {
+.App-header h1 {
   text-align: center;
-  font-size: 45px;
+  font-size: 48px;
+  line-height: 70px;
 }
 
 .App-footer {
@@ -15,7 +16,10 @@
   margin: 15px auto 0;
 }
 
-.App-footer,
 a {
-  text-decoration: none;
+  color: #0c3e3d;
+}
+
+a:hover {
+  color: white;
 }

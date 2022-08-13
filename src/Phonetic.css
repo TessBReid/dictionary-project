@@ -1,15 +1,21 @@
 .Phonetic .phoneticText {
-  font-size: 14px;
+  font-size: 15px;
   display: inline;
   margin-left: 10px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .Phonetic a {
   text-decoration: none;
   padding: 8px 17px;
-  border: 1px solid #375442;
+  border: 1px solid #0c3e3d;
   color: black;
   background-color: #dce6e2;
   border-radius: 30px;
   line-height: 40px;
+}
+
+.Phonetic a:hover {
+  background: white;
+  border: 1px solid #0c3e3d;
 }

@@ -1,8 +1,12 @@
 .Meaning .definition {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .Meaning .example {
-  font-size: 12px;
+  font-size: 15px;
   font-style: italic;
+}
+
+.Meaning h4 {
+  font-size: 28px;
 }
